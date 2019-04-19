@@ -1,0 +1,119 @@
+.g-bd-home {
+    padding-bottom: 160px;
+}
+.g-bd {
+    width: 1100px;
+    min-height: 750px;
+    margin: 0 auto;
+    background: #fff;
+}
+.g-bd .ma {
+    width: 100%;
+    margin: 0;
+}
+/* 红黄图片板块 */
+.subjs {
+    width: 100%;
+    margin-top: 40px;
+}
+.pad-right {
+    padding-right: 16px;
+}
+.subj {
+    float: left;
+    width: 542px;
+    height: 300px;
+}
+.subj img {
+    width: 100%;
+    height: 100%;
+}
+/* 动态侧边栏 */
+.m-top-a{
+	position: absolute;
+    top: 674px;
+    margin-top: 0px;
+    bottom: auto;
+}
+.mtop-b{
+	position: fixed;
+    top: 50%;
+    margin-top: -138px;
+    bottom: auto;
+}
+/* 数字专辑 */
+.digalb {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.digalb .cnt {
+    width: 700px;
+    margin: 0 20px 0 60px;
+}
+.digalb .inner {
+    height: 180px;
+}
+.digalb .inner span {
+    display: block;
+    padding-top: 28px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+.digalb .inner span i {
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/projectmain/digitalicon.png) no-repeat;
+}
+.digalb .inner p {
+    position: relative;
+    margin-top: 9px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.digalb .inner a {
+    display: block;
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+.digalb .covers {
+    top: 30px;
+    right: 50px;
+    width: 210px;
+    height: 120px;
+}
+.digalb .sml {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.digalb .big {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+}
+.digalb .circle {
+    position: absolute;
+    top: 0;
+    left: 175px;
+    width: 35px;
+    height: 120px;
+    border: none;
+	background: url(../img/bunner/pointlist.png) no-repeat 0 9999px;
+    background-position: 0px -73px;
+}

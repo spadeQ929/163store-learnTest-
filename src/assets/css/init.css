@@ -1,0 +1,137 @@
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th {
+    padding: 0;
+    margin: 0;
+} 
+li{list-style-type:none;} 
+img{vertical-align:top;border:0;} 
+ol,ul {list-style:none;} 
+a{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+body, textarea, select, input, button {
+    font-size: 12px;
+    color: #333;
+    font-family: quote, "PingFang SC", "Microsoft Yahei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", "simsun", sans-serif;
+    -webkit-text-size-adjust: none;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+img, .txt {
+    border: 0;
+}
+em, i {
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+}
+.f-cb:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.f-blk, .f-img, .f-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.f-fs1 {
+    font-size: 14px;
+}
+.f-fs20 {
+    font-size: 20px;
+}
+.f-fr {
+    float: right;
+}
+.f-fl {
+    float: left;
+}
+.f-ff2 {
+    font-family: quote, "Microsoft Yahei", simsun, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.f-mgt10 {
+    margin-top: 10px;
+}
+.f-mgt20 {
+    margin-top: 20px;
+}
+.f-mgr10 {
+    margin-right: 10px;
+}
+.f-mgr20 {
+    margin-right: 20px;
+}
+.f-pr {
+    position: relative;
+    zoom: 1;
+}
+.f-pa {
+    position: absolute;
+}
+.f-tc {
+    text-align: center;
+}
+.f-thide, .f-thide2, .f-thide3, .f-thide4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.s-fc1 {
+    color: #333;
+}
+.s-fc3, a.s-fc3:hover {
+    color: #666;
+}
+.s-fcLink {
+    color: #328ad4;
+}
+.s-fc666 {
+    color: #666;
+}
+.s-fcTheme {
+    color: #d33a31;
+}
+.s-fc4, a.s-fc4:hover {
+    color: #999;
+}
+.s-fc333 {
+    color: #333;
+}
+.u-btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 155px;
+    text-align: center;
+    color: #fff;
+}
+.u-btn-white {
+    background-color: white;
+	color: #d33a31;
+}
+.u-btn-red {
+    background-color: #d33a31;
+}
+.u-counter {
+    width: 132px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    border-left: none;
+}
+.u-counter .btn {
+    float: left;
+    width: 34px;
+    height: 30px;
+    border-left: 1px solid #e5e5e5;
+}
+.u-counter .tot {
+    float: left;
+    width: 59px;
+    height: 30px;
+    border-left: 1px solid #e5e5e5;
+}

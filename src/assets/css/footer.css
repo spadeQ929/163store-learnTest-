@@ -1,0 +1,59 @@
+#footer{
+	width: 100%;
+	height: 120px;
+	background: #f2f2f2;
+}
+.f-container{
+	width: 1100px;
+	margin: 0 auto;
+}
+/* 左半部声明 */
+.copy{
+	float: left;
+	width: 490px;
+	padding-top: 35px;
+	line-height: 24px;
+}
+.copy .sm5{
+	color: #999;
+}
+.copy .line{
+	margin: 0 8px 0 10px;
+	color: #c2c2c2;
+}
+.copy p.copy-text{
+	color: #666;
+}
+.copy-text span{
+	margin-right: 14px;
+}
+.copy-text a{
+	color: #666;
+}
+/* 右侧图标列表部分 */
+.link-list{
+	width: 330px;
+	margin-top: 30px;
+	float: right;
+}
+.link-list a{
+	text-indent: -9999px;
+	float: left;
+	width: 60px;
+	height: 70px;
+	margin-left: 30px;
+	background: url(../img/footer/foot_enter.png) no-repeat;
+}
+.link-list .logo-musician{
+	background-position: -60px -80px;
+	margin-left: 0;
+}
+.link-list .logo-topic{
+	background-position: 0 -80px;
+}
+.link-list .logo-midea{
+	background-position: 0 0;
+}
+.link-list .logo-reward{
+	background-position: -60px 0;
+}
